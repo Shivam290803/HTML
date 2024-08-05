@@ -1,0 +1,221 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td,th{
+            border : 2px solid black;
+            padding: 10px;
+        }
+
+        .first{
+            background-color: aqua;
+            text-align: center;
+            border : 1px solid black;
+        }
+
+        .second{
+            background-color: orange;
+            text-align: center;
+            border : 1px solid black;
+        }
+
+        .third{
+            background-color: violet;
+            text-align : center;
+            border : 1px solid black;
+        }
+
+        #one{
+            text-align: center;
+            width : 100%;
+            border-collapse: collapse;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <table id="one">
+            <thead>
+         <div class="first">AMITY INSTITUTE OF INFORMATION TECHNOLOGY, AMITY UNIVERSITY PATNA</div> 
+         <div class="second">CLASS SCHEDULE FOR BCA - 4(A) (2022-25)</div>
+         <div class="third">ROOM NO. - 409, CLASS TEACHER - PROF. AVISHEK CHOUDHURI</div> 
+            </thead>
+
+            <tbody>
+
+            <tr style="background-color: greenyellow;">
+                <td> Day/timing</td>
+                <td> 01:00-02:00</td>
+                <td> 02:00-03:00</td>
+                <td> 03:00-04:00</td>
+                <td> 04:00-05:00</td>
+                <td> 05:00-06:00</td>
+            </tr>
+
+
+            <tr>
+                <td style="background-color: greenyellow;">Monday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Web technologies</td>
+                <td>Operating system</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: greenyellow;">Tuesday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Web technologies</td>
+                <td>Operating system</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: greenyellow;">Wednesday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Web technologies</td>
+                <td>Operating system</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: greenyellow;">Thursday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Web technologies</td>
+                <td>Operating system</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: greenyellow;">Friday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Web technologies</td>
+                <td>Operating system</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+        *{
+            font-family: Arial, sans-serif;
+        }
+
+        #main{
+            background-color : #ffffff;
+            height : 75%;
+            width : 45%;
+            border : 2px solid black;
+            border-radius : 10px;
+            align-items: left;
+            justify-content: space-evenly;
+            position : relative;
+            top : 7%;
+            bottom : 20%;
+            right : 30%;
+            left : 25%;
+            color : #313638;
+            padding : 10px;
+            
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        #submit{
+            background-color : lightgreen;
+            color : white;
+            text-align : center;
+            border : none;
+            cursor : pointer;
+            height : 25px;
+            position : relative;
+            left : 85%;
+            bottom : 5px;
+            top : 0%;
+            right : 0%;
+        }
+
+        #submit:hover{
+            background-color: darkgreen;
+        }
+
+        input{
+            width : 100%;
+            background-color: #E8E9EB;
+            height : 25px;
+            border-radius : 4px;
+            border : 1px solid black;
+            box-sizing: border-box;
+        }
+
+
+     </style>
+</head>
+
+<body>
+     
+
+<div id="main">
+    <form action="/backend.php">
+    <h2>REGISTRATION FORM</h2>
+
+    FIRST NAME:
+    <br>
+    <input type="text">
+    <br>
+    LAST NAME: 
+    <br>
+    <input type="text">
+    <br>
+    DEPARTMENT: 
+    <br>
+    <input type="text">
+    <br>
+    ENROLLMENT NUMBER : 
+    <br>
+    <input type="text">
+    <br>
+    AREA OF INTREST : 
+    <br>
+    <input type="text">
+    <br>
+    EMAIL ID: 
+    <br>
+    <input type="email">
+    <br>
+    CREATE PASSWORD : 
+    <br>
+    <input type="password">
+    <br>
+    CONFIRM PASSWORD : 
+    <br>
+    <input type="password">
+    <br>
+    <br>
+    <button id="submit">REGISTER</button>
+</div>
+ </form>
+
+</body>
+</html>
